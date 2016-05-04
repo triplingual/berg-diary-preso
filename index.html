@@ -4,16 +4,30 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js – The HTML Presentation Framework</title>
+		<title>Locating Mary Berg's Diary</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Summarization of the major issues in historicizing and mapping the locatable content in 'Warsaw Ghetto: A Diary by Mary Berg', written by Mary Berg (Miriam Wattenberg) between 1939 and 1944, predominantly in the Warsaw Ghetto but revised, translated, and edited afterward in New York City. Mary Berg's youth and sharp eye for the importance of place make this diary continue to be a valuable historical and affective document when studying the Holocaust, despite being out of print in English for most of the second half of the 20th century.">
+		<meta name="author" content="Trip KIRKPATRICK">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
+<!--
+Themes:
+	Black
+	White
+	League
+	Sky
+	Beige
+	Simple
+	Serif
+	Blood
+	Night
+	Moon
+	Solarized
+-->
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
@@ -41,18 +55,98 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<img src="img/wattenberg-closeup.jpg" style="width:45%; border:0px;" />
+					<p><small>USMHMM photograph collection</small></p>
+					<aside class="notes">
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						This is Miriam Wattenberg, probably taken in Warsaw between December 1940 and January 1943.
+					</p>
+					</aside>
+				</section>
+
+				<section>
+					<img src="img/berg-newspaper.jpg" style="width:45%; border:0px;" />
+					<p><small>USMHMM photograph collection</small></p>
+					<aside class="notes">
+					<p>
+						This is Mary Berg, taken on May 8, 1945 in an unknown location.
+					</p>
+					</aside>
+				</section>
+
+				<section>
+					<img src="img/diary.jpg" style="border:0px;" />
+					<aside class="notes">
+					<p>
+						Between these two photos, Miriam spent just over two years imprisoned in the Warsaw Ghetto, measuring 1.3 square miles in area and holding somewhere from 400,000 to 450,000 people identified by the Nazis as Jews (or sufficiently Jew-like). Between the raw numbers of people and the residential stock destroyed by the German siege of Warsaw in fall of 1939, the mean number of people per residential room was 7.2. All statistics lie, and this one neglects to tell the story of the thousands of families or individuals living (and dying) on the streets. Berg, however, kept a diary beginning on her 15th birthday and located many of the events she witnessed or heard about. ***move to next slide*** My project is to map and make meaningful Berg's location-specific information.
+					</p>
+					</aside>
+				</section>
+
+				<section>
+					<h1>Locating Mary Berg's Diary</h1>
+					<h3>Mapping an Young Eyewitness Account of the Warsaw Ghetto</h3>
+					<p>
+						<small>Created by <a href="http://triptronix.net/">Trip Kirkpatrick</a> / <a href="http://twitter.com/triplingual">@triplingual</a></small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
+					<section>
+						<img src="img/engelking-berg-school.jpg" style="border:0px;" />
+						<p><small>Map detail from Engelking-Boni, Barbara, Jacek Leociak, and Emma Harris. Warsaw Ghetto: A Guide to the Perished City. New Haven: Yale University Press, 2009.</small></p>
+						<aside class="notes">
+						<p>
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/1940-01-05.jpg" style="border:0px;" />
+						<aside class="notes">
+						<p>
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/1940-04-28.jpg" style="border:0px;" />
+						<aside class="notes">
+						<p>
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/1940-07-12.jpg" style="border:0px;" />
+						<aside class="notes">
+						<p>
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/engelking-berg-school.jpg" style="border:0px;" />
+						<p><small>Map detail from Engelking-Boni, Barbara, Jacek Leociak, and Emma Harris. Warsaw Ghetto: A Guide to the Perished City. New Haven: Yale University Press, 2009.</small></p>
+						<aside class="notes">
+						<p>
+						</p>
+						</aside>
+					</section>
+					<section>
+						<img src="img/engelking-berg-school-enlarged.jpg" style="border:0px;" />
+						<p><small>Map detail from Engelking-Boni, Barbara, Jacek Leociak, and Emma Harris. Warsaw Ghetto: A Guide to the Perished City. New Haven: Yale University Press, 2009.</small></p>
+						<aside class="notes">
+						<p>
+						</p>
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<img src="img/geojson-site-slim.png" style="border:0px;" />
+					<p>Geojson.io web interface for adding points, lines, polygons to the map.</p>
+					<aside class="notes">
 					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+						I added locatable references using geojson.io, with a 1930 map of Warsaw to guide me. I had to make reference also to current maps as well as to other historical maps, including (awkwardly) an unauthorized and poorly done digitization of one of the remarkable maps in Barbara Engelking-Boni and Jacek Leociak's "Warsaw Ghetto: A Guide to the Perished City".
 					</p>
+					</aside>
 				</section>
 
 				<!-- Example of nested vertical slides -->
@@ -392,7 +486,7 @@ Reveal.addEventListener( 'customevent', function() {
 				history: true,
 				center: true,
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
 				dependencies: [
